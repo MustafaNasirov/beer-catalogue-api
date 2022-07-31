@@ -1,12 +1,10 @@
 import CardList from "../../components/CardList/CardList"
-import Nav from "../Nav/Nav";
-
+import "./Main.scss"
 
 const Main = ({arr}) => {
    
     return(
         <>
-            <Nav/>
             <CardList className="card-container" arr={arr}/>
         </>
     )

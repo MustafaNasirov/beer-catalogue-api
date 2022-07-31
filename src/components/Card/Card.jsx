@@ -9,7 +9,6 @@ const Card = ({id, name, tagline, desc, img}) => {
                     <p className="beer__name">{name}</p>
                     <p className="beer__tagline">{tagline}</p>
                     <p className="beer__desc">{desc}</p> 
-            
             </div> 
     </>
     )

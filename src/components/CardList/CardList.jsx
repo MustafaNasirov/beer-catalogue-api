@@ -4,9 +4,13 @@ import Card from "../Card/Card";
 
 const CardList = ({arr}) => {
 
-    const beers = arr.map((beer) => {
+    const shortenDesc = (desc) => {
+        
+    }
 
-        return <>
+    const beers = arr.map((beer) => {
+        return(
+                <>
                     <Card 
                         key={beer.id} 
                         name={beer.name} 
@@ -15,6 +19,7 @@ const CardList = ({arr}) => {
                         img={beer.image_url} alt="beer"
                         />
                 </>
+        )
     })
 
     return <div className="card-container">{beers}</div>

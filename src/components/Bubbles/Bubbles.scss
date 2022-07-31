@@ -1,0 +1,65 @@
+
+.bubbles-container{
+    position: absolute;
+    z-index: -1;
+    background-color: orange;
+    top: 20rem;
+    width: 100vw;
+    height: 100vh;
+
+
+    @keyframes moveBubble{
+        0% { top: 100% }
+    
+        50% {
+            background-color: rgba(255, 255, 255, 0.2);
+            top: 50%;
+        }
+    
+        100% {
+            background-color: rgba(255, 255, 255, 0);
+            top: 0%;
+        }
+    }
+
+
+    .bubble{
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        bottom: 0%;
+        animation: moveBubble 2.5s linear infinite;
+    }
+
+    #bubble1{
+        right: 15%;
+        animation-delay: 1s;
+    }
+
+    #bubble2{
+        right: 40%;
+        animation-delay: 2.5s;
+    }
+
+    #bubble3{
+        right: 80%;
+        animation-delay: 1.5s;
+    }
+
+    #bubble4{
+        right: 25%;
+        animation-delay: 4s;
+    }
+
+    #bubble5{
+        right: 55%;
+        animation-delay: 5.5s;
+    }
+
+    #bubble6{
+        right: 85%;
+        animation-delay: 6s;
+    }
+}

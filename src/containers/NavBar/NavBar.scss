@@ -1,0 +1,55 @@
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+
+    .navbar-header{
+        background-color: rgb(0, 157, 255);
+        width: 100vw;
+        
+        .navbar__title{
+            font-weight: 200;
+            font-size: 4rem;
+            z-index: 1;
+            padding-top: .5rem;
+            position: relative;
+            text-align: center;
+        }
+
+        .navbar__img{
+            width: 100%;
+            height: auto;
+            top: 10px;
+            object-fit:cover;
+            position: relative;
+            z-index: 0;
+        }        
+    }
+
+    .navbar-hamburger{
+        padding: 1rem;
+        z-index: 1;
+        margin: 1rem 0rem
+    }
+
+    .navbar__filters{
+        display: none;
+        border: .1rem solid black;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        background-color: rgb(255, 195, 84);
+    }
+
+    .navbar-hamburger:hover{
+        padding: 0;
+        background-color: rgb(255, 195, 84);
+        
+    }
+
+    .navbar-hamburger:hover .navbar__filters{
+        display: block;
+        
+    }
+
+}

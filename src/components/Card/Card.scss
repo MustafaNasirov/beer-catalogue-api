@@ -1,0 +1,36 @@
+.beer-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    border: solid 0.05rem black;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    box-shadow: .15rem .12rem 0rem;
+    height: 30rem;
+    background-color: white;
+
+    .beer__image{
+        width: 50%;
+        height: 10rem;
+        object-fit: contain;
+    }
+
+    .beer__name{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .beer__tagline{
+
+    }
+
+    .beer__desc{
+        display: none;
+    }
+}
+
+.beer-card:hover{
+    background-color: orange;
+}
