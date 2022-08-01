@@ -25,9 +25,11 @@ const FiltersList = ({ handleSearch, handleClassicCheck, handlePhCheck, handleAb
     
     return (
         <div className="filter-list__container">Filter By:
-            <FilterItem type="Classic Range: " handleFilter={handleFilter} id="classic"/>
-            <FilterItem type="High Acidity: " handleFilter={handleFilter} id="ph"/>
-            <FilterItem type="High ABV: " handleFilter={handleFilter} id="abv"/>
+            <div className="filter-list__items">
+                <FilterItem type="Classic Range: " handleFilter={handleFilter} id="classic" className="filter-list__item"/>
+                <FilterItem type="High Acidity: " handleFilter={handleFilter} id="ph" className="filter-list__item"/>
+                <FilterItem type="High ABV: " handleFilter={handleFilter} id="abv" className="filter-list__item"/>
+            </div>
 
             <label name="Search">Search: </label>
             <input className="search-input" onChange={handleSearch} name="Search"></input>

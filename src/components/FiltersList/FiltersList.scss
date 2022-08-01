@@ -1,7 +1,13 @@
-
-
 .filter-list__container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
     
+    .filter-list__items{
+        display: flex;
+      flex-direction: column;
+      gap: .25rem;
+    }
 }
 
 .search-input{
