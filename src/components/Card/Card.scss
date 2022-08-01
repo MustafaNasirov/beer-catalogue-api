@@ -6,7 +6,7 @@
     text-align: center;
     border: solid 0.05rem black;
     border-radius: 10px;
-    box-shadow: .15rem .12rem 0rem;
+    box-shadow: .35rem .5rem;
     background-color: white;
     width: 88%;
     height: 100%;
@@ -22,35 +22,62 @@
         width: 50%;
         height: 10rem;
         object-fit: contain;
+        padding: .5rem;
     }
 
     .beer__tagline{
+        font-size: 1.2rem;
+    }
+
+    .beer__abv{
         font-weight: 600;
+        font-style: italic;
     }
 
     .beer__more-info{
+        display: flex;
+        flex-direction: column;
         padding: 1rem;
+        align-items: center;
 
         .beer__desc{
             padding-bottom: 1rem;
+            font-style: italic;
+            font-size: 1.2rem;
         }
 
-        .beer__brew-date{
+        .beer__more-info-details{
+            display: flex;
+            flex-direction: row ;
+            gap: 1rem;
+            border: 0.05rem solid black;
+            border-radius: 10px;
+            box-shadow: 0.1rem 0.1em 0.15rem;
+            padding: .5rem 1rem;
 
-        }
+            .beer__brew-date{
+                font-size: 1rem;
+                font-weight: 600;
+            }
 
-        .beer__ph{
+            .beer__ph{
+                font-size: 1rem;
+            }
 
-        }
-
-        .beer_ibu{
-            
+            .beer__ibu{
+                font-size: 1rem;
+            }
         }
     }
 }
 
-
-
 .beer-card:hover{
-    background-color: rgb(255, 224, 140);
+    background-color: rgb(254, 233, 176);
+
+    .beer__image{
+        transform: scale(1.1);
+        transition: all .2s ease-in-out;
+
+    }
+
 }

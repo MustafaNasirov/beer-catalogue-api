@@ -12,10 +12,12 @@ const Card = ({id, name, tagline, desc, img, abv, ph, ibu, brewDate}) => {
                 <p className="beer__abv">ABV: {abv}%</p>
              
                 <div className="beer__more-info">
-                        <p className="beer__desc">{shortenDesc}</p> 
-                        <p className="beer__brew-date">First Brewed in: {brewDate}</p>
-                        <p className="beer__ph">PH: {ph}</p>
-                        <p className="beer__ibu">IBU: {ibu}</p>
+                        <p className="beer__desc">"{shortenDesc}"</p> 
+                        <div className="beer__more-info-details">
+                                <p className="beer__ph">PH: {ph}</p>
+                                <p className="beer__brew-date">First Brewed in: {brewDate}</p>
+                                <p className="beer__ibu">IBU: {ibu}</p>
+                        </div>
                 </div>
             </div> 
     </>
