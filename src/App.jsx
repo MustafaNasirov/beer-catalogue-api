@@ -39,7 +39,6 @@ function App() {
   const handleSearch = (event) => {
     if (event.target.value !== "") setSearch(`beer_name=${event.target.value}`);
     else setSearch("");
-    
   }
 
   const handleClassicCheck = (event) => {
