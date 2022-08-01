@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Header from './containers/Header/Header';
+//import Header from './containers/Header/Header';
 import Main from './containers/Main/Main';
 import NavBar from './containers/NavBar/NavBar';
 //import beers from "./assets/data/beers";
@@ -12,14 +12,12 @@ function App() {
   const [classicRange, setClassicRange] = useState();
   const [ph, setPh] = useState("");
   const [abv, setAbv] = useState();
-
-  
   
   const getBeers = async () => {
     let params=`${search}&${abv}&${classicRange}`
     
     try{
-      const response = await fetch(`https://api.punkapi.com/v2/beers?${params}`);
+      const response = await fetch(`https://api.punkapi.com/v2/beers?${params}&per_page=80`);
       
       const data = await response.json();
 
@@ -72,7 +70,6 @@ function App() {
   return (
     <div className='app'>
       <Bubbles/>
-      <Header/>
       <NavBar handleClassicCheck={handleClassicCheck} handlePhCheck={handlePhCheck} handleAbvCheck={handleAbvCheck} handleSearch={handleSearch}/>
       {beers && <Main className="main" arr={beers} /> } 
      

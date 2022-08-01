@@ -6,7 +6,7 @@ const CardList = ({arr}) => {
 
     const beers = arr.map((beer) => {
         return(
-                <>
+                <div className="card-item">
                     <Card 
                         key={beer.id} 
                         name={beer.name} 
@@ -18,7 +18,7 @@ const CardList = ({arr}) => {
                         ibu={beer.ibu}
                         brewDate={beer.first_brewed}
                         />
-                </>
+                </div>
         )
     })
 

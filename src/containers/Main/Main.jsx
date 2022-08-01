@@ -4,9 +4,9 @@ import "./Main.scss"
 const Main = ({arr}) => {
    
     return(
-        <>
-            <CardList className="card-container" arr={arr}/>
-        </>
+        <div className="container">
+            <CardList arr={arr}/>
+        </div>
     )
 
 }

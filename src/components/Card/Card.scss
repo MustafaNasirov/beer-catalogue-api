@@ -5,13 +5,17 @@
     align-items: center;
     text-align: center;
     border: solid 0.05rem black;
+    border-radius: 10px;
     box-shadow: .15rem .12rem 0rem;
     background-color: white;
+    width: 88%;
+    height: 100%;
+    gap: .25rem;
 
     .beer__name{
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-weight: 600;
-        padding-bottom: .5rem;
+        padding: .5rem;
     }
 
     .beer__image{
@@ -24,9 +28,8 @@
         font-weight: 600;
     }
 
-
     .beer__more-info{
-        padding-top: 1rem;
+        padding: 1rem;
 
         .beer__desc{
             padding-bottom: 1rem;

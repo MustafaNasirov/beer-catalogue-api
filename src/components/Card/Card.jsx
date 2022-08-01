@@ -9,7 +9,7 @@ const Card = ({id, name, tagline, desc, img, abv, ph, ibu, brewDate}) => {
                 <p className="beer__name">{name}</p>
                 <img className="beer__image" src={img} alt="beer" />
                 <p className="beer__tagline">{tagline}</p>
-                <p className="beer__abv">ABV: {abv}</p>
+                <p className="beer__abv">ABV: {abv}%</p>
              
                 <div className="beer__more-info">
                         <p className="beer__desc">{shortenDesc}</p> 
