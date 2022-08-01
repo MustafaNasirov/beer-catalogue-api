@@ -15,8 +15,8 @@ const FiltersList = ({ handleSearch, handleClassicCheck, handlePhCheck, handleAb
                 break;
             
             case "abv":
-            handleAbvCheck(event);
-            break;
+                handleAbvCheck(event);
+                break;
         
             default:
                 break;

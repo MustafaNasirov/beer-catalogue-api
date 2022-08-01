@@ -1,5 +1,4 @@
 import filterListImg from "../../assets/images/filter-list.png"
-import NavBar from "../../containers/NavBar/NavBar"
 import FiltersList from "../FiltersList/FiltersList"
 
 import "./BurgerMenu.scss"

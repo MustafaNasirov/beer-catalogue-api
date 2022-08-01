@@ -10,7 +10,7 @@ function App() {
   const [beers, setBeers] = useState([]);
   const [search, setSearch] = useState("");
   const [classicRange, setClassicRange] = useState();
-  const [ph, setPh] = useState("");
+  const [ph, setPh] = useState(false);
   const [abv, setAbv] = useState();
   
   const getBeers = async () => {
@@ -20,11 +20,10 @@ function App() {
       const response = await fetch(`https://api.punkapi.com/v2/beers?${params}&per_page=80`);
       
       const data = await response.json();
-
-      if(ph === true) setBeers(data.filter(beer => beer.ph < 4))
-
-      setBeers(data);
-      console.log(search)
+      if(ph == true){
+        setBeers(data.filter(beer => beer.ph < 4))
+      }
+      else { setBeers(data); }
     }
     catch(error){
       alert(error.message);
