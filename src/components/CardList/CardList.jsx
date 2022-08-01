@@ -4,10 +4,6 @@ import Card from "../Card/Card";
 
 const CardList = ({arr}) => {
 
-    const shortenDesc = (desc) => {
-        
-    }
-
     const beers = arr.map((beer) => {
         return(
                 <>
@@ -17,6 +13,10 @@ const CardList = ({arr}) => {
                         tagline={beer.tagline} 
                         desc={beer.description} 
                         img={beer.image_url} alt="beer"
+                        abv={beer.abv}
+                        ph={beer.ph}
+                        ibu={beer.ibu}
+                        brewDate={beer.first_brewed}
                         />
                 </>
         )

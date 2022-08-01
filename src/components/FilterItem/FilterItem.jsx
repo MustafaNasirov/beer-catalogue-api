@@ -1,12 +1,12 @@
 import "./FilterItem.scss";
 
 
-const FilterItem = ({ type, handleFilter}) => {
+const FilterItem = ({ type, handleFilter, id}) => {
 
     return(
         <div className="filter-item">
             <label className="filter-item__label">{type}</label>
-            <input type="checkbox" name={type} onChange={handleFilter}/>
+            <input type="checkbox" name={type} onChange={handleFilter} id={id}/>
         </div>
     )
     

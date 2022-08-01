@@ -1,6 +1,21 @@
 .card-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     justify-content: center;
-    padding-top: 1.5rem;
+    padding: 1.5rem 1rem;
+    overflow: auto;
+
+    @media screen and (min-width: 768px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1024px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media screen and (min-width: 1440px){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    
+    
 }

@@ -7,10 +7,13 @@
 
 .app{
 
-   
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
     //grid-template-areas: 
-    
-    
+    height: 100vh;
 
 };
 
