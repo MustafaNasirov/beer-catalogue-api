@@ -15,7 +15,7 @@
     .navbar__title{
         font-size: 8rem;
         z-index: 2;
-        padding-top: 20%;
+        padding-top: 18%;
         position: absolute;
         margin-top: 4rem;
         font-family: 'League Gothic', sans-serif;;
@@ -50,7 +50,7 @@
     
         100% {
             background-color: rgba(255, 255, 255, 0);
-            top: 0px;
+            top: 200px;
         }
     }
 
@@ -61,37 +61,37 @@
         width: 20px;
         position: absolute;
         bottom: 0%;
-        animation: moveBubble 5s linear infinite;
+        animation: moveBubble 6s linear infinite;
     }
 
     #bubble1{
         right: 15%;
-        animation-delay: 2s;
+        animation-delay: 4.8s;
     }
 
     #bubble2{
-        right: 40%;
-        animation-delay: 2.5s;
+        right: 18%;
+        animation-delay: 2.65s;
     }
 
     #bubble3{
-        right: 80%;
-        animation-delay: 1.5s;
+        right: 52%;
+        animation-delay: 3s;
     }
 
     #bubble4{
         right: 25%;
-        animation-delay: 4s;
+        animation-delay: 4.1s;
     }
 
     #bubble5{
         right: 65%;
-        animation-delay: 5.5s;
+        animation-delay: 0.25s;
     }
 
     #bubble6{
-        right: 85%;
-        animation-delay: 6s;
+        right: 80%;
+        animation-delay: 5.1s;
     }
 
     #bubble7{
@@ -101,6 +101,16 @@
 
     #bubble8{
         right: 53%;
-        animation-delay: 1.5s;
+        animation-delay: 1.85s;
+    }
+
+    #bubble9{
+        right: 63%;
+        animation-delay: 4.5s;
+    }
+
+    #bubble10{
+        right: 33%;
+        animation-delay: 3.75s;
     }
 }

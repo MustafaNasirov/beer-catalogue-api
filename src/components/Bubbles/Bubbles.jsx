@@ -20,6 +20,8 @@ return(
             <div className='bubble' id='bubble6'></div>
             <div className='bubble' id='bubble7'></div>
             <div className='bubble' id='bubble8'></div>
+            <div className='bubble' id='bubble9'></div>
+            <div className='bubble' id='bubble10'></div>
         </div>
   </div>
 )
