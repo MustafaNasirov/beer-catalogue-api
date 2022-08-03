@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/beer-catalogue-api/static/css/main.312e1548.css",
-    "main.js": "/beer-catalogue-api/static/js/main.697adf9b.js",
+    "main.css": "/beer-catalogue-api/static/css/main.e249068a.css",
+    "main.js": "/beer-catalogue-api/static/js/main.87252c81.js",
     "static/js/787.f082421a.chunk.js": "/beer-catalogue-api/static/js/787.f082421a.chunk.js",
     "static/media/white-foam-crop.png": "/beer-catalogue-api/static/media/white-foam-crop.e72c12ba8504356ae5b3.png",
     "index.html": "/beer-catalogue-api/index.html",
-    "main.312e1548.css.map": "/beer-catalogue-api/static/css/main.312e1548.css.map",
-    "main.697adf9b.js.map": "/beer-catalogue-api/static/js/main.697adf9b.js.map",
+    "main.e249068a.css.map": "/beer-catalogue-api/static/css/main.e249068a.css.map",
+    "main.87252c81.js.map": "/beer-catalogue-api/static/js/main.87252c81.js.map",
     "787.f082421a.chunk.js.map": "/beer-catalogue-api/static/js/787.f082421a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.312e1548.css",
-    "static/js/main.697adf9b.js"
+    "static/css/main.e249068a.css",
+    "static/js/main.87252c81.js"
   ]
 }
