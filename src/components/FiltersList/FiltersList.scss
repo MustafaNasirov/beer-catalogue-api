@@ -5,17 +5,19 @@
     text-align: center;
     height: auto;
     margin: 1rem;
-    width: 15rem;
+    width: 60vw;
     
     
     
     .filter-list__items{
         display: flex;
-      flex-direction: column;
-      gap: .25rem;
+        flex-direction: column;
+        gap: .25rem;
     }
 }
 
 .search-input{
     margin-top: 1rem;
+    width: 35%;
+    align-self: center;
 }
