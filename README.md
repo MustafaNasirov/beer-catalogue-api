@@ -1,4 +1,4 @@
-# API Punk Project :beer:
+# Punk API Project :beer:
 ## Description
 This project was designed to test my knowledge in API's and also to teach me how to extract data from a 3rd party data source and display the information in an elegant way. Filter and Search functionality was implementated through the use of UseStates and UseEffects in React, allowing for datasets to be updated with user input. 
 
